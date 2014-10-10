@@ -1,0 +1,6 @@
+
+# Android Build output directories
+bin/
+libs/x86/
+libs/armeabi-v7a/
+obj/
