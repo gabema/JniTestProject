@@ -10,7 +10,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:hint="@string/name" />
+        android:hint="@string/name"
+        android:singleLine="true" />
 
     <EditText
         android:id="@+id/age"
@@ -19,7 +20,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@id/name"
-        android:hint="@string/age" />
+        android:hint="@string/age"
+        android:inputType="number|none"
+        android:singleLine="true" />
 
     <TextView
         android:id="@+id/isAwesome"
